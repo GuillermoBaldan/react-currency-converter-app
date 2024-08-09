@@ -9,7 +9,7 @@ const CurrencyConverter = () => {
   const [convertedAmount, setConvertedAmount] = useState(null);
   const [error, setError] = useState(null);
 
-  const API_KEY = 'TU_API_KEY_AQUI'; // Reemplaza esto con tu API key de la API de tasas de cambio
+  const API_KEY = 'bd79be77de399f116cbbec6f'; // Reemplaza esto con tu API key de la API de tasas de cambio
 
   useEffect(() => {
     if (fromCurrency && toCurrency) {
